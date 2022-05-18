@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MMDeployXDetector</string>
+    <string-array name="model_array">
+        <item>mobilessd</item>
+        <item>yolo</item>
+        <item>yolox</item>
+    </string-array>
+</resources>

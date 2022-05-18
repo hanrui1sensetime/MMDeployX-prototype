@@ -1,0 +1,16 @@
+{
+    "version": "0.3.0",
+    "task": "Detector",
+    "models": [
+        {
+            "name": "yolox",
+            "net": "end2end.param",
+            "weights": "end2end.bin",
+            "backend": "ncnn",
+            "precision": "FP32",
+            "batch_size": 1,
+            "dynamic_shape": false
+        }
+    ],
+    "customs": []
+}
