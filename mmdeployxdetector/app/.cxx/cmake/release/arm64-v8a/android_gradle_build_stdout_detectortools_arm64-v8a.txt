@@ -1,0 +1,13 @@
+ninja: Entering directory `/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/detectortools.dir/detectortools.cpp.o
+/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/detectortools.cpp:132:19: warning: result of comparison against a string literal is unspecified (use an explicit string comparison function instead) [-Wstring-compare]
+    if (className == "mm_detect_t") {
+                  ^  ~~~~~~~~~~~~~
+/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/detectortools.cpp:140:24: warning: result of comparison against a string literal is unspecified (use an explicit string comparison function instead) [-Wstring-compare]
+    else if (className == "int") {
+                       ^  ~~~~~
+/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/detectortools.cpp:148:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+3 warnings generated.
+[2/2] Linking CXX shared library /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a/libdetectortools.so

@@ -1,0 +1,9 @@
+-- Found OpenCV: /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk (found version "4.5.5") found components: core imgproc 
+-- Found OpenMP_C: -fopenmp=libomp (found version "5.0") 
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "5.0") 
+-- Found OpenMP_C: -fopenmp=libomp (found version "5.0") 
+-- Found OpenMP_CXX: -fopenmp=libomp (found version "5.0") 
+-- Found OpenCV: /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk (found version "4.5.5") found components: opencv_calib3d opencv_core opencv_dnn opencv_features2d opencv_flann opencv_gapi opencv_highgui opencv_imgcodecs opencv_imgproc opencv_ml opencv_objdetect opencv_photo opencv_stitching opencv_video opencv_videoio 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a

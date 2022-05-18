@@ -1,0 +1,1 @@
+/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a

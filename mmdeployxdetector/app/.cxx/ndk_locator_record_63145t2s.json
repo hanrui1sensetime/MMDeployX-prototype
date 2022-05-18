@@ -1,0 +1,11 @@
+{
+  "ndk": "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b",
+  "revision": {
+    "mMajor": 23,
+    "mMinor": 1,
+    "mMicro": 7779620,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}

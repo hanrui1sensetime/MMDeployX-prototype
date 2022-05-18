@@ -1,0 +1,553 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/adjust_api_level.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/platforms.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Initialize.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/hooks/pre/Android-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/hooks/pre/Android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/hooks/post/Android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/hooks/pre/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/flags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Common.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/hooks/post/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindOpenMP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OSDependentTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OSDependentTargets-release.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OGLCompilerTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OGLCompilerTargets-release.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/glslangTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/glslangTargets-release.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/SPIRVTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/SPIRVTargets-release.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/ncnn/ncnn.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfigVersion.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfigTargets.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfigTargets-relwithdebinfo.cmake"
+		},
+		{
+			"path" : "lib/cmake/MMDeploy/MMDeployConfigVersion.cmake"
+		},
+		{
+			"path" : "lib/cmake/MMDeploy/MMDeployConfig.cmake"
+		},
+		{
+			"path" : "lib/cmake/MMDeploy/MMDeployTargets.cmake"
+		},
+		{
+			"path" : "lib/cmake/MMDeploy/MMDeployTargets-relwithdebinfo.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindOpenMP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindVulkan.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OSDependentTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/OGLCompilerTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/glslangTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/SPIRVTargets.cmake"
+		},
+		{
+			"path" : "ncnn/arm64-v8a/lib/cmake/ncnn/ncnn.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfigVersion.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "spdlog/lib/cmake/spdlog/spdlogConfigTargets.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake"
+		},
+		{
+			"path" : "OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/local/lib/python3.7/site-packages/cmake/data/share/cmake-3.21/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "lib/cmake/MMDeploy/MMDeploy.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a",
+		"source" : "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
