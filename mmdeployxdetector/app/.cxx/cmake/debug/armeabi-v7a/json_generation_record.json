@@ -1,0 +1,373 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 29 min SDK version: armeabi-v7a",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json /home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file /home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a\u0027",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529\n-DANDROID_PLATFORM\u003dandroid-29\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/build/intermediates/cmake/debug/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d29\n-B/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni\",\n  \"buildDirectory\": \"/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/.cxx/cmake/debug/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529\",\n    \"-DANDROID_PLATFORM\\u003dandroid-29\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/build/intermediates/cmake/debug/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d29\"\n  ]\n}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working C compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compiler ABI info - done",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting C compile features - done",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Check for working CXX compiler: /home/PJLAB/hanrui/workspace/android_sdk_for_android_studio/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compiler ABI info - done",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Detecting CXX compile features - done",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenCV: /home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/opencv-mobile-4.5.4-android (found version \\\"4.5.4\\\") found components:  core imgproc \",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Found OpenCV: /home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/opencv-mobile-4.5.4-android (found version \"4.5.4\") found components:  core imgproc ",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"CMake Error at CMakeLists.txt:10 (find_package):\\n  By not providing \\\"Findncnn.cmake\\\" in CMAKE_MODULE_PATH this project has\\n  asked CMake to find a package configuration file provided by \\\"ncnn\\\", but\\n  CMake did not find one.\\n\\n  Could not find a package configuration file provided by \\\"ncnn\\\" with any of\\n  the following names:\\n\\n    ncnnConfig.cmake\\n    ncnn-config.cmake\\n\\n  Add the installation prefix of \\\"ncnn\\\" to CMAKE_PREFIX_PATH or set\\n  \\\"ncnn_DIR\\\" to a directory containing one of the above files.  If \\\"ncnn\\\"\\n  provides a separate development package or SDK, be sure it has been\\n  installed.\\n\\n\",\"title\":\"Error\",\"type\":\"message\"}\n",
+    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/ncnn-androidX-detection/androidsdkexamplecamerax/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

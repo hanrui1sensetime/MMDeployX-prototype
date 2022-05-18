@@ -1,0 +1,7 @@
+Executable : /usr/local/bin/ninja
+arguments : 
+-C
+/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a
+detectortools
+jvmArgs : 
+
