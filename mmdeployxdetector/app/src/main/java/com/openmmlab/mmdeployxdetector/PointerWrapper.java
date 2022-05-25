@@ -18,8 +18,8 @@
 package com.openmmlab.mmdeployxdetector;
 
 public class PointerWrapper {
-    private String nativeClassName;
-    private long address;
+    public String nativeClassName;
+    public long address;
     PointerWrapper(String nativeClassName, long address) {
         this.nativeClassName = nativeClassName;
         this.address = address;

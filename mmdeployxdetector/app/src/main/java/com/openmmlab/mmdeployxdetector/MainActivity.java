@@ -129,9 +129,9 @@ public class MainActivity extends AppCompatActivity {
         String modelPath=workDir + "/" + modelTypes[(int)modelID];
         String deviceName="cpu";
         int deviceID = 0;
-        boolean ret_init = mmdeployxdetector.mmdeployDetectorCreateByPath(modelPath, deviceName, deviceID, this.handle);
+        this.handle = mmdeployxdetector.mmdeployDetectorCreateByPath(modelPath, deviceName, deviceID, this.handle);
         // will this.handle changes apparently?
-        if (!ret_init)
+        if (this.handle.address == 0)
         {
             Log.e("MainActivity", "addModel failed");
         }
@@ -238,7 +238,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void analyze(ImageProxy image, int rotationDegrees) {
 
-                    // 从CameraX提供的ImageProxy拉取图像数据
+                    // Get image data by ImageProxy in CameraX.
                     // 优点：是摄像头获取的真实分辨率
                     // 缺点：提供的是YUV格式的Image，转Bitmap比较困难
                     Image img = image.getImage();
@@ -248,23 +248,20 @@ public class MainActivity extends AppCompatActivity {
                     matrix.setRotate(90);
                     final Bitmap result = Bitmap.createBitmap(bitmap,0,0,bitmap.getWidth(),bitmap.getHeight(),matrix,true);
 
-                    // 在这里跑ncnn
+                    // run ncnn model here.
                     int width = result.getWidth();
                     int height = result.getHeight();
                     int[] pixArr = new int[width*height];
-                    // bitmap转数组
+                    // bitmap to arr
                     result.getPixels(pixArr,0,width,0,0,width,height);
                     // inference
                     PointerWrapper [] pImageArray = DetectorTools.pixArrToMat(width, height, pixArr);
                     PointerWrapper pMat = pImageArray[0];
                     PointerWrapper pSrcMat = pImageArray[1];
                     PointerWrapper pRgb = pImageArray[2];
-                    PointerWrapper pBboxes = DetectorTools.createCppObject("mm_detect_t");
-                    PointerWrapper pResultCount = DetectorTools.createCppObject("int");
-
+                    PointerWrapper pBboxes = DetectorTools.createCppObject("mm_detect_t*");
+                    PointerWrapper pResultCount = DetectorTools.createCppObject("int*");
                     mmdeployxdetector.mmdeployDetectorApply(handle, pMat, 1, pBboxes, pResultCount);
-                    //androidsdkexamplecamerax.detectDraw(width,height,pixArr);
-                    // 数组转回去bitmap
                     String [] classNames = {"person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat", "traffic light",
                                             "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat", "dog", "horse", "sheep", "cow",
                                             "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella", "handbag", "tie", "suitcase", "frisbee",
