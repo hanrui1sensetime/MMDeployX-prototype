@@ -95,7 +95,6 @@ static int draw_fps(int w, int h, cv::Mat& rgb)
 }
 
 extern "C" {
-
 JNIEXPORT jobjectArray JNICALL Java_com_openmmlab_mmdeployxdetector_DetectorTools_pixArrToMat(JNIEnv* env, jclass thizClazz, jint jw, jint jh, jintArray jPixArr)
 {
     // this function returns 3 mats, so we use jobjectArray instead of jobject.
@@ -104,23 +103,18 @@ JNIEXPORT jobjectArray JNICALL Java_com_openmmlab_mmdeployxdetector_DetectorTool
         return JNI_FALSE;
     }
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////
-
-    // 用传入的数组构建Mat，然后从RGBA转成RGB
-    cv::Mat mat_image_src(jh, jw, CV_8UC4, (unsigned char *) cPixArr);
-    cv::Mat rgb;
-    cvtColor(mat_image_src, rgb, cv::COLOR_RGBA2RGB, 3);
-    mm_mat_t* mat = new mm_mat_t{rgb.data, rgb.rows, rgb.cols, 3, MM_BGR, MM_INT8};
-
+    cv::Mat* mat_image_src_pointer = new cv::Mat(jh, jw, CV_8UC4, (unsigned char *) cPixArr);
+    cv::Mat* rgb_pointer = new cv::Mat;
+    // is there rgb right?
+    cvtColor(*mat_image_src_pointer, *rgb_pointer, cv::COLOR_RGBA2RGB, 3);
+    mm_mat_t* mat = new mm_mat_t{rgb_pointer->data, rgb_pointer->rows, rgb_pointer->cols, 3, MM_BGR, MM_INT8};
     jclass clazz = env->FindClass("com/openmmlab/mmdeployxdetector/PointerWrapper");
+    jmethodID initMethod = env->GetMethodID(clazz, "<init>", "(Ljava/lang/String;J)V");
     jfieldID id_address = env->GetFieldID(clazz, "address", "J");
-    jobject pMat;
-    env->SetLongField(pMat, id_address, (long)mat);
-    jobject pMatImageSrc;
-    env->SetLongField(pMatImageSrc, id_address, (long)&mat_image_src);
-    jobject pRgb;
-    env->SetLongField(pRgb, id_address, (long)&rgb);
-    jobjectArray imageArray = env->NewObjectArray(3, clazz, 0);
+    jobject pMat = env->NewObject(clazz, initMethod, env->NewStringUTF("mm_mat_t"), (long)mat);
+    jobject pMatImageSrc = env->NewObject(clazz, initMethod, env->NewStringUTF("cv::Mat"), (long)mat_image_src_pointer);
+    jobject pRgb = env->NewObject(clazz, initMethod, env->NewStringUTF("cv::Mat"), (long)rgb_pointer);
+    jobjectArray imageArray = env->NewObjectArray(3, clazz, NULL);
     env->SetObjectArrayElement(imageArray, 0, pMat);
     env->SetObjectArrayElement(imageArray, 1, pMatImageSrc);
     env->SetObjectArrayElement(imageArray, 2, pRgb);
@@ -128,21 +122,19 @@ JNIEXPORT jobjectArray JNICALL Java_com_openmmlab_mmdeployxdetector_DetectorTool
 }
 JNIEXPORT jobject JNICALL Java_com_openmmlab_mmdeployxdetector_DetectorTools_createCppObject(JNIEnv* env, jclass thizclazz, jstring nativeClassName)
 {
-    const char* className = env->GetStringUTFChars(nativeClassName, 0);
-    if (className == "mm_detect_t") {
-        jobject pResult;
-        mm_detect_t* result = new mm_detect_t;
+    std::string className = (std::string)env->GetStringUTFChars(nativeClassName, 0);
+    if (className == "mm_detect_t*") {
+        mm_detect_t* result = new mm_detect_t{};
         jclass clazz = env->FindClass("com/openmmlab/mmdeployxdetector/PointerWrapper");
-        jfieldID id_address = env->GetFieldID(clazz, "address", "J");
-        env->SetLongField(pResult, id_address, (long)result);
+        jmethodID initMethod = env->GetMethodID(clazz, "<init>", "(Ljava/lang/String;J)V");
+        jobject pResult = env->NewObject(clazz, initMethod, env->NewStringUTF("mm_detect_t"), (long)result);
         return pResult;
     }
-    else if (className == "int") {
-        jobject pCount;
-        int* count = new int; //is it int* or int **?
+    else if (className == "int*") {
+        int* count = new int{}; //is it int* or int **?
         jclass clazz = env->FindClass("com/openmmlab/mmdeployxdetector/PointerWrapper");
-        jfieldID id_address = env->GetFieldID(clazz, "address", "J");
-        env->SetLongField(pCount, id_address, (long)count);
+        jmethodID initMethod = env->GetMethodID(clazz, "<init>", "(Ljava/lang/String;J)V");
+        jobject pCount = env->NewObject(clazz, initMethod, env->NewStringUTF("int"), (long)count);
         return pCount;
     }
 }
@@ -155,10 +147,11 @@ JNIEXPORT jboolean JNICALL Java_com_openmmlab_mmdeployxdetector_DetectorTools_dr
     int color_count = color_length / 3;
     jclass clazzSourceMat = env->GetObjectClass(jSourceMat);
     jfieldID id_source_mat_address = env->GetFieldID(clazzSourceMat, "address", "J");
-    cv::Mat mat_image_src = *(cv::Mat*) env->GetLongField(jSourceMat, id_source_mat_address);
+    cv::Mat mat_image_src = *((cv::Mat*) env->GetLongField(jSourceMat, id_source_mat_address));
     jclass clazzRgb = env->GetObjectClass(jRgb);
     jfieldID id_rgb_address = env->GetFieldID(clazzRgb, "address", "J");
-    cv::Mat rgb = *(cv::Mat*) env->GetLongField(jRgb, id_rgb_address);
+    cv::Mat* rgb_ptr = (cv::Mat*) env->GetLongField(jRgb, id_rgb_address);
+    cv::Mat rgb = *rgb_ptr;
     jclass clazzBboxes = env->GetObjectClass(jResult);
     jfieldID id_bboxes_address = env->GetFieldID(clazzBboxes, "address", "J");
     mm_detect_t *bboxes = (mm_detect_t *)env->GetLongField(jResult, id_bboxes_address);

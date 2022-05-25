@@ -23,7 +23,7 @@ public class MMDeployDetector
     static {
         System.loadLibrary("javaapis");
     }
-    public native boolean mmdeployDetectorCreateByPath(String modelPath, String deviceName, int deviceID, PointerWrapper handlePointer);
+    public native PointerWrapper mmdeployDetectorCreateByPath(String modelPath, String deviceName, int deviceID, PointerWrapper handlePointer);
     public native boolean mmdeployDetectorApply(PointerWrapper handle, PointerWrapper matsPointer, int matCount, PointerWrapper resultsPointer, PointerWrapper resultCountPointer);
     public native void mmdeployDetectorReleaseResult(PointerWrapper resultsPointer, PointerWrapper resultCountPointer, int count);
     public native void mmdeployDetectorDestroy(PointerWrapper handle);

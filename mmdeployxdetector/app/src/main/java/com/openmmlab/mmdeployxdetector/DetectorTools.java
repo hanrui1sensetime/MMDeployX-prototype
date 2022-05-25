@@ -23,6 +23,6 @@ public class DetectorTools
     public static native PointerWrapper createCppObject(String nativeClassName);
     public static native boolean drawResult(String [] className, int [] colors, PointerWrapper sourceMatPointer, PointerWrapper rgbPointer, PointerWrapper resultsPointer, PointerWrapper resultCountPointer);
     static {
-        System.loadLibrary("detector");
+        System.loadLibrary("detectortools");
     }
 }
