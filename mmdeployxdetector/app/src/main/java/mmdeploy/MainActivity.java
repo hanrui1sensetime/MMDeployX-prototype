@@ -2,7 +2,7 @@
 // This file is modified from https://github.com/nihui/ncnn-android-nanodet and
 // https://github.com/EdVince/Android_learning/tree/main/ncnnnanodetCameraX
 
-package com.openmmlab.mmdeployxdetector;
+package mmdeploy;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,8 +25,11 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.ImageFormat;
 import android.graphics.Matrix;
+import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.YuvImage;
 import android.media.Image;
@@ -61,6 +64,10 @@ import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
+    static {
+        System.loadLibrary("mmdeploy_java");
+    }
+
     private int REQUEST_CODE_PERMISSIONS = 101;
     private final String[] REQUIRED_PERMISSIONS = new String[]{"android.permission.CAMERA"};
     private Spinner spinnerModel;
@@ -85,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
     // Create an instance of MMDeptloyDetector.
     private Detector detector;
 
-    public static byte[] bitmapToRgb(Bitmap bitmap) {
+    public static byte[] bitmapToBgr(Bitmap bitmap) {
         int bytes = bitmap.getByteCount();
         ByteBuffer buffer = ByteBuffer.allocate(bytes);
         bitmap.copyPixelsToBuffer(buffer);
@@ -97,9 +104,9 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < count; i++) {
 
-            pixels[i * 3] = rgba[i * 4];            //R
-            pixels[i * 3 + 1] = rgba[i * 4 + 1];    //G
-            pixels[i * 3 + 2] = rgba[i * 4 + 2];    //B
+            pixels[i * 3 + 2] = rgba[i * 4];    //R
+            pixels[i * 3 + 1] = rgba[i * 4 + 1];//G
+            pixels[i * 3] = rgba[i * 4 + 2];    //B
 
         }
 
@@ -107,11 +114,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public static double t0 = 0.f;
     public static double [] fps_history = new double[10];
-    public static int drawFPS(Canvas canvas, BufferedImage srcImg) {
+    public static int drawFPS(Canvas canvas, Bitmap srcImg) {
         // resolve moving average
         float avg_fps = 0.f;
-        t0 = 0.f;
-        fps_history = new double[10];
 
         double t1 = System.currentTimeMillis();
         if (t0 == 0.f)
@@ -139,12 +144,12 @@ public class MainActivity extends AppCompatActivity {
             avg_fps += fps_history[i];
         }
         avg_fps /= 10.f;
-
         String text = String.format("%dx%d FPS=%.2f", srcImg.getWidth(), srcImg.getHeight(), avg_fps);
         int baseLine = 0;
         Paint paint = new Paint();
+        paint.setStyle(Paint.Style.STROKE);
         Rect textBound = new Rect();
-        paint.getTextBounds(labelText, 0, labelText.length, textBound);
+        paint.getTextBounds(text, 0, text.length(), textBound);
 
         int labelH = textBound.height();
         int labelW = textBound.width();
@@ -152,10 +157,10 @@ public class MainActivity extends AppCompatActivity {
         int y = 0;
         int x = srcImg.getWidth() - labelW;
         paint.setColor(Color.rgb(255, 255, 255));
-        paint.setStyle(Style.FILL);
-        paint.drawRect(x, y, labelW, labelH + baseLine, paint);
+        paint.setStyle(Paint.Style.FILL);
+        canvas.drawRect(x, y, srcImg.getWidth(), labelH + baseLine, paint);
         paint.setColor(Color.rgb(0, 0, 0));
-        paint.drawText(text, x, y + labelH, paint);
+        canvas.drawText(text, x, y + labelH, paint);
 
         return 0;
     }
@@ -313,10 +318,12 @@ public class MainActivity extends AppCompatActivity {
                 continue;
             }
             // skip detections less than specified score threshold
-            if (value.score < 0.3) {
+            if (value.score < 0.2) {
                 continue;
             }
+            Log.e("MainActivity", "debugging result " + i + " label: " + value.label_id + "classname: " + this.classNames[value.label_id] + "score: " + value.score);
             Paint paint = new Paint();
+            paint.setStyle(Paint.Style.STROKE);
             paint.setColor(Color.rgb(this.colors[(i % 19) * 3], this.colors[(i % 19) * 3 + 1], this.colors[(i % 19) * 3 + 2]));
             canvas.drawRect(value.bbox.left, value.bbox.top, value.bbox.right, value.bbox.bottom, paint);
             // Really need + 1 ?
@@ -324,7 +331,7 @@ public class MainActivity extends AppCompatActivity {
             int baseLine = 0;
 
             Rect textBound = new Rect();
-            paint.getTextBounds(labelText, 0, labelText.length, textBound);
+            paint.getTextBounds(labelText, 0, labelText.length(), textBound);
 
             int labelH = textBound.height();
             int labelW = textBound.width();
@@ -336,16 +343,16 @@ public class MainActivity extends AppCompatActivity {
             if (x + labelW > srcImg.getWidth())
                 x = srcImg.getWidth() - labelW;
 
-            paint.setStyle(Style.FILL);
-            canvas.drawRect(x, y, x + labelW, y + labelH + baseLine, paint);
-            paint.setStyle(Style.STROKE);
+            paint.setStyle(Paint.Style.FILL);
+            canvas.drawRect((float)x, (float) y, (float) x + labelW, (float)y + labelH + baseLine, paint);
+            paint.setStyle(Paint.Style.STROKE);
             if (this.colors[(i % 19) * 3] + this.colors[(i % 19) * 3 + 1] + this.colors[(i % 19) * 3 + 2] >= 381) {
                 paint.setColor(Color.rgb(0, 0, 0));
             }
             else {
                 paint.setColor(Color.rgb(255, 255, 255));
             }
-            canvas.drawText(labelText, x, y + labelH, paint);
+            canvas.drawText(labelText, (float)x, (float)y + labelH, paint);
         }
         drawFPS(canvas, srcImg);
 
@@ -383,11 +390,12 @@ public class MainActivity extends AppCompatActivity {
                     int[] pixArr = new int[width*height];
                     // bitmap to arr
                     srcImg.getPixels(pixArr,0,width,0,0,width,height);
-                    byte [] data = bitmapToRgb(srcImg);
+                    byte [] data = bitmapToBgr(srcImg);
                     Mat rgb  = new Mat(bitmap.getHeight(), bitmap.getWidth(), 3,
                                        PixelFormat.BGR, DataType.INT8, data);
-                    Detector.Result[] result = this.detector.apply(rgb);
-                    drawResult(srcImg, result);
+                    Detector.Result[] result = detector.apply(rgb);
+                    Log.e("MainActivity", "debugging after detector.apply! result length: " + result.length);
+                    drawDetectResult(srcImg, result);
 
                     Bitmap newBitmap = Bitmap.createBitmap(width,height,Bitmap.Config.RGB_565);
                     newBitmap.setPixels(pixArr,0,width,0,0,width,height);
@@ -395,7 +403,7 @@ public class MainActivity extends AppCompatActivity {
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            ivBitmap.setImageBitmap(newBitmap); // 将推理后的bitmap喂回去
+                            ivBitmap.setImageBitmap(srcImg); // 将推理后的bitmap喂回去
                         }
                     });
                 }

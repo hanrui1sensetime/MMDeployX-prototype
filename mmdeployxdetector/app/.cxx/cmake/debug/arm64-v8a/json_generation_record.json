@@ -2,21 +2,231 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 30 min SDK version: arm64-v8a",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON \u0027/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "rebuilding JSON /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "- a dependent build file changed",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig-version.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/OpenCVConfig.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/lib/cmake/MMDeploy/MMDeploy.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/lib/cmake/MMDeploy/MMDeployConfig.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/lib/cmake/MMDeploy/MMDeployConfigVersion.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/lib/cmake/MMDeploy/MMDeployTargets-relwithdebinfo.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/lib/cmake/MMDeploy/MMDeployTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/OGLCompilerTargets-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/OGLCompilerTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/OSDependentTargets-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/OSDependentTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/SPIRVTargets-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/SPIRVTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/glslangTargets-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/glslangTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/ncnn/ncnn.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/spdlog/lib/cmake/spdlog/spdlogConfig.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/spdlog/lib/cmake/spdlog/spdlogConfigTargets-relwithdebinfo.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/spdlog/lib/cmake/spdlog/spdlogConfigTargets.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/spdlog/lib/cmake/spdlog/spdlogConfigVersion.cmake",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "keeping json folder \u0027/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a\u0027 but regenerating project",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "executing cmake Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "tag": "debug|arm64-v8a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /usr/local/bin/cmake with arguments {-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni -DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab -DCMAKE_BUILD_TYPE\u003dDebug -DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake -DANDROID_ABI\u003darm64-v8a -DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b -DANDROID_PLATFORM\u003dandroid-30 -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a -DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/debug/obj/arm64-v8a -DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja -DCMAKE_SYSTEM_NAME\u003dAndroid -DCMAKE_SYSTEM_VERSION\u003d30 -B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a -GNinja}\n\nCMake Error: The source directory \"/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "debug|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   }

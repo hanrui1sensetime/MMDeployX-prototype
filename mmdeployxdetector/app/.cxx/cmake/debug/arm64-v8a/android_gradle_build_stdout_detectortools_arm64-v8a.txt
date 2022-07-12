@@ -1,2 +1,15 @@
-ninja: Entering directory `/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a'
-ninja: no work to do.
+ninja: Entering directory `/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/detectortools.dir/detectortools.cpp.o
+FAILED: CMakeFiles/detectortools.dir/detectortools.cpp.o 
+/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android30 --sysroot=/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DMMDEPLOY_STATUS_USE_SOURCE_LOCATION=1 -DSPDLOG_COMPILED_LIB -Ddetectortools_EXPORTS -I/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/include/cpp/core -I/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/include/cpp/experimental -isystem /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/include/c -isystem /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/include/cpp -isystem /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/spdlog/include -isystem /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/OpenCV-android-sdk/sdk/native/jni/include -isystem /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/ncnn/arm64-v8a/include/ncnn -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -pthread -MD -MT CMakeFiles/detectortools.dir/detectortools.cpp.o -MF CMakeFiles/detectortools.dir/detectortools.cpp.o.d -o CMakeFiles/detectortools.dir/detectortools.cpp.o -c /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/detectortools.cpp
+/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/detectortools.cpp:51:21: error: use of undeclared identifier 'System'
+        double t1 = System.currentTimeMillis();
+                    ^
+/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/detectortools.cpp:146:13: warning: expression result unused [-Wunused-value]
+    assert(("length of colors should divided by 3!", color_length % 3 == 0));
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h:55:23: note: expanded from macro 'assert'
+#  define assert(e) ((e) ? __assert_no_op : __assert2(__FILE__, __LINE__, __PRETTY_FUNCTION__, #e))
+                      ^
+1 warning and 1 error generated.
+ninja: build stopped: subcommand failed.
