@@ -2,70 +2,70 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 30 min SDK version: arm64-v8a",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "rebuilding JSON /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "- a dependent build file changed",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "- expected json /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "  - /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "- missing previous command file /home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/build_command.txt, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "keeping json folder \u0027/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\u0027 but regenerating project",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "removing stale contents from \u0027/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\u0027",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "created folder \u0027/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\u0027",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "done executing cmake",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "executing cmake Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "write command file /home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a/build_command.txt",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "Executable : /usr/local/bin/cmake\narguments : \n-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\n-DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/prefab/arm64-v8a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DANDROID_PLATFORM\u003dandroid-30\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d30\n-B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   },
   {
     "level": "INFO",
-    "message": "JSON generation completed without problems",
-    "file": "/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process /usr/local/bin/cmake with arguments {-H/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni -DCMAKE_FIND_ROOT_PATH\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/prefab/arm64-v8a/prefab -DCMAKE_BUILD_TYPE\u003dRelease -DCMAKE_TOOLCHAIN_FILE\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b/build/cmake/android.toolchain.cmake -DANDROID_ABI\u003darm64-v8a -DANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b -DANDROID_PLATFORM\u003dandroid-30 -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a -DCMAKE_ANDROID_NDK\u003d/home/PJLAB/hanrui/workspace/android_demo_develop_ndk23/android-ndk-r23b -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/build/intermediates/cmake/release/obj/arm64-v8a -DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja -DCMAKE_SYSTEM_NAME\u003dAndroid -DCMAKE_SYSTEM_VERSION\u003d30 -B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/release/arm64-v8a -GNinja}\n\nCMake Error: The source directory \"/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\n",
+    "file": "/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni/CMakeLists.txt",
     "tag": "release|arm64-v8a",
     "diagnosticCode": "UNKNOWN"
   }

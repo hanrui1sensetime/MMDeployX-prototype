@@ -42,7 +42,7 @@ rule CXX_SHARED_LIBRARY_LINKER__detectortools_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/local/lib/python3.7/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/src/main/jni -B/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a
+  command = /usr/local/lib/python3.7/site-packages/cmake/data/bin/cmake --regenerate-during-build -S/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/src/main/jni -B/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a
   description = Re-running CMake...
   generator = 1
 
