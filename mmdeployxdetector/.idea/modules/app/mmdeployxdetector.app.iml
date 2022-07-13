@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="mmdeployxdetector" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="native-android-gradle" name="Native-Android-Gradle">
-      <configuration>
-        <option name="SELECTED_ABI" value="arm64-v8a" />
-        <option name="SELECTED_VARIANT" value="debug" />
-      </configuration>
-    </facet>
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":app" />
@@ -42,7 +36,6 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/jni" type="native-Source-root" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />

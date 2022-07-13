@@ -1,3 +1,3 @@
-/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-/home/PJLAB/hanrui/AndroidStudioProjects/mmdeploy-X/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/detectortools.dir
+/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/PJLAB/hanrui/workspace/MMDeployX-issue1/MMDeployX-prototype/mmdeployxdetector/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/detectortools.dir
