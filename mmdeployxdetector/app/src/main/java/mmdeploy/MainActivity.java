@@ -92,24 +92,30 @@ public class MainActivity extends AppCompatActivity {
     // Create an instance of MMDeptloyDetector.
     private Detector detector;
 
-    public static byte[] bitmapToBgr(Bitmap bitmap) {
-        int bytes = bitmap.getByteCount();
-        ByteBuffer buffer = ByteBuffer.allocate(bytes);
-        bitmap.copyPixelsToBuffer(buffer);
+    public static byte[] pixArrToBgra(int [] pixArray, int w, int h) {
+        byte[] bgra = new byte [w * h * 4];
+        for (int i = 0; i < w * h; i++) {
+            byte a = (byte)(pixArray[i] >> 24);
+            byte r = (byte)((pixArray[i] >> 16) & 0x000000ff);
+            byte g = (byte)((pixArray[i] >> 8) & 0x000000ff);
+            byte b = (byte)(pixArray[i] & 0x000000ff);
+            bgra[i * 4] = b;
+            bgra[i * 4 + 1] = g;
+            bgra[i * 4 + 2] = r;
+            bgra[i * 4 + 3] = a;
+        }
+        return bgra;
+    }
 
-        byte[] rgba = buffer.array();
-        byte[] pixels = new byte[(rgba.length / 4) * 3];
-
-        int count = rgba.length / 4;
+    public static byte[] BgraToBgr(byte[] bgra, int w, int h) {
+        byte[] pixels = new byte[(bgra.length / 4) * 3];
+        int count = bgra.length / 4;
 
         for (int i = 0; i < count; i++) {
-
-            pixels[i * 3 + 2] = rgba[i * 4];    //R
-            pixels[i * 3 + 1] = rgba[i * 4 + 1];//G
-            pixels[i * 3] = rgba[i * 4 + 2];    //B
-
+            pixels[i * 3] = bgra[i * 4];    //B
+            pixels[i * 3 + 1] = bgra[i * 4 + 1];//G
+            pixels[i * 3 + 2] = bgra[i * 4 + 2];    //R
         }
-
         return pixels;
     }
     public static double t0 = 0.f;
@@ -177,7 +183,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.e("MainActivity", "debugging java mainactivity start!");
         super.onCreate(savedInstanceState);
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE); // 将app最上面那个带名字的title隐藏掉
         setContentView(R.layout.activity_main); // 设置控件的布局
@@ -257,7 +262,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                         File outmodeldir = new File(context.getFilesDir() + separator + modeldir);
                         outmodeldir.mkdir();
-                        // Log.e("debugging outmodeldir:", outmodeldir.getAbsolutePath());
                         for (String fileName: fileNames) {
                             BufferedInputStream inputStream = null;
                             try {
@@ -318,13 +322,13 @@ public class MainActivity extends AppCompatActivity {
                 continue;
             }
             // skip detections less than specified score threshold
-            if (value.score < 0.2) {
+            if (value.score < 0.3) {
                 continue;
             }
-            Log.e("MainActivity", "debugging result " + i + " label: " + value.label_id + "classname: " + this.classNames[value.label_id] + "score: " + value.score);
+
             Paint paint = new Paint();
             paint.setStyle(Paint.Style.STROKE);
-            paint.setColor(Color.rgb(this.colors[(i % 19) * 3], this.colors[(i % 19) * 3 + 1], this.colors[(i % 19) * 3 + 2]));
+            paint.setColor(Color.rgb(this.colors[(i % 19) * 3 + 2], this.colors[(i % 19) * 3 + 1], this.colors[(i % 19) * 3]));
             canvas.drawRect(value.bbox.left, value.bbox.top, value.bbox.right, value.bbox.bottom, paint);
             // Really need + 1 ?
             String labelText = String.format("%s %.1f%%", this.classNames[value.label_id], value.score * 100);
@@ -390,11 +394,11 @@ public class MainActivity extends AppCompatActivity {
                     int[] pixArr = new int[width*height];
                     // bitmap to arr
                     srcImg.getPixels(pixArr,0,width,0,0,width,height);
-                    byte [] data = bitmapToBgr(srcImg);
-                    Mat rgb  = new Mat(bitmap.getHeight(), bitmap.getWidth(), 3,
+                    byte [] bgra = pixArrToBgra(pixArr, width, height);
+                    byte [] data = BgraToBgr(bgra, width, height);
+                    Mat rgb  = new Mat(srcImg.getHeight(), srcImg.getWidth(), 3,
                                        PixelFormat.BGR, DataType.INT8, data);
                     Detector.Result[] result = detector.apply(rgb);
-                    Log.e("MainActivity", "debugging after detector.apply! result length: " + result.length);
                     drawDetectResult(srcImg, result);
 
                     Bitmap newBitmap = Bitmap.createBitmap(width,height,Bitmap.Config.RGB_565);
