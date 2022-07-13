@@ -1,6 +1,9 @@
 # MMDeployX-prototype
 The prototype of MMDeployX: An object detection Android demo using [MMDeploy](https://github.com/open-mmlab/mmdeploy).
 
+## Android apk file download
+[Download here](https://media.githubusercontent.com/media/hanrui1sensetime/MMDeployX-APK/master/MMDeployX-prototype-release/release/app-release.apk)
+
 ## Preparation
 - Android API >= 30
 - cpu architecture `arm64-v8a`
