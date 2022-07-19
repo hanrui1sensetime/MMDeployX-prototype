@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+    android:keepScreenOn="true"
+    android:orientation="vertical">
 
-    <Spinner
-        android:id="@+id/spinnerModel"
+    <com.otaliastudios.cameraview.CameraView
+        android:id="@+id/detect_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawSelectorOnTop="true"
-        android:entries="@array/model_array" />
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/ivBitmap"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
         android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:cameraAudio="off"
+        app:cameraEngine="camera2"
+        app:cameraGestureTap="autoFocus"
+        app:cameraPreview="glSurface"
+        >
+        <mmdeploy.widget.PaintingView
+            android:id="@+id/detect_painting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.otaliastudios.cameraview.CameraView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

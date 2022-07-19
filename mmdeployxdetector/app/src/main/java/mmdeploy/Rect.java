@@ -1,5 +1,7 @@
 package mmdeploy;
 
+import android.graphics.RectF;
+
 public class Rect {
     public float left;
     public float top;
@@ -13,4 +15,9 @@ public class Rect {
         this.right = right;
         this.bottom = bottom;
     }
+
+    public RectF getRectF(){
+        return new RectF(left,top,right,bottom);
+    }
+
 }
