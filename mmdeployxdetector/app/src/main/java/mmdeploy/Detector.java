@@ -5,20 +5,38 @@ public class Detector {
         System.loadLibrary("mmdeploy_java");
     }
 
-    private final long handle;
-
     public static class Result {
-        public int label_id;
-        public float score;
-        public Rect bbox;
-        public InstanceMask mask;
+        private final int label_id;
+        private final float score;
+        private final Rect bbox;
+        private final InstanceMask mask;
         public Result(int label_id, float score, Rect bbox, InstanceMask mask) {
             this.label_id = label_id;
             this.score = score;
             this.bbox = bbox;
             this.mask = mask;
         }
+
+        public int getLabel_id() {
+            return label_id;
+        }
+
+        public float getScore() {
+            return score;
+        }
+
+        public Rect getBbox() {
+            return bbox;
+        }
+
+        public InstanceMask getMask() {
+            return mask;
+        }
+
     }
+
+
+    private final long handle;
 
     public Detector(String modelPath, String deviceName, int deviceId) {
         handle = create(modelPath, deviceName, deviceId);
